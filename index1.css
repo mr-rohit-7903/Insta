@@ -1,0 +1,149 @@
+/* For all content  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* For Logo  */
+@import url('https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+/* Creating the sidebar  */
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    background: #fff;
+    border-right: 1px solid black;
+}
+
+/* Sidebar Head  */
+.sidebar .name{
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar .name a{
+    font-family: 'Moo Lah Lah', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar .name i{
+    display: none;
+} 
+
+/* Sidebar center  */
+.sidebar ul{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul li {
+    height: 54px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    list-style: none;
+    margin-top: 2px;
+    margin-left: 10px;
+    border-radius: 8px;
+    transition: all 0.1s ease;
+}
+
+.sidebar ul li a{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+}
+
+.sidebar ul li a p{
+    position: absolute;
+    margin-left: 55px;
+}
+
+.sidebar ul li a i{
+    margin: 20px;
+    font-size: 22px;
+}
+.sidebar ul li .profile_img{
+    height: 25px;
+    width: 25px;
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.sidebar ul li:hover{
+    background: #544f4f20;
+}
+
+/* Sidebar bottom  */
+.last{
+    height: 54px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: 5%;
+    border-radius: 8px; 
+    transition: all 0.3s ease;
+}
+
+.help{
+    margin-top: 60px;
+}
+
+.more{
+    margin-top: -10px;
+}
+
+.last:hover{
+    background: #544f4f20;
+}
+
+.last i{
+    margin: 20px;
+    font-size: 22px;
+}
+
+.last p{
+    position: absolute;
+    margin-left: 55px;
+}
+
+/* sidebar ended */
+
+.content_box{
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: auto;
+    margin-left: 249.2px;
+    /* background: #665; */
+}
+
+.suggetion{
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 470px;
+    background: #fff;
+}
+

@@ -1,0 +1,140 @@
+/* For all content  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+
+/* Profile section  */
+.suggetion .profile{
+    display: flex;
+    align-items: center;
+    height: 16%;
+}
+.suggetion .profile .dp{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+}
+
+.suggetion .profile .name{
+    height: 40px;
+    width: 200px;
+    padding-left: 12px;
+}
+
+.suggetion .profile .name a{
+    text-decoration: none;
+}
+
+.suggetion .profile .name .username{
+    font-size: 14px;
+    font-weight: 900;
+    color: #000;
+}
+
+.suggetion .profile .name .my_name{
+    font-size: 14px;
+    padding-left: 4px;
+    font-weight: 300;
+    color: grey;
+}
+
+/* suggested for you  */
+.people .suggested{
+    display: flex;
+    font-size: 14px;
+    height: 19px;
+    width: 280px;
+    justify-content: space-between;
+}
+
+.suggetion .people .text{
+    font-weight: 600;
+    color: grey;
+}
+.suggetion .people .see{
+    margin-left: 0px;
+    font-weight: 600;
+    color: #000;
+}
+
+/* suggested people  */
+.person{
+    display: flex;
+    align-items: center;
+    height: 16%;
+    margin-top: 20px;
+}
+.suggetion .person .dp{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.people .p1 .dp{
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+}
+.people .p2 .dp{
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+}
+.people .p3 .dp{
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+}
+.people .p4 .dp{
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+}
+.people .p5 .dp{
+    background: url("Images/my_dp.jpg");
+    background-size: contain;
+}
+
+.suggetion .person .name{
+    height: 40px;
+    width: 200px;
+    padding-left: 12px;
+}
+
+.suggetion .person .name a{
+    text-decoration: none;
+}
+
+.suggetion .person .name .username{
+    font-size: 14px;
+    font-weight: 900;
+    color: #000;
+}
+
+.suggetion .person .name .type{
+    font-size: 12px;
+    font-weight: 300;
+    color: grey;
+}
+
+/* View  */
+.suggetion .person a{
+    font-size: 14px;
+    color: blue;
+    text-decoration: none;
+}
+
+/* last section  */
+.suggetion .foot .options{
+    height: 40px;
+    width:300px;
+    margin-top: 30px;
+}
+.suggetion .foot .options a, .suggetion .foot .copyright a{
+    color: rgb(182, 182, 182);
+    font-size: 11px;
+    text-decoration: none;
+}
+.suggetion .foot .options a:hover{
+    text-decoration: underline;
+}
+.suggetion .foot .copyright{
+    margin-top: 20px;
+}
